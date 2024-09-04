@@ -18,7 +18,6 @@ import {
     onBoard,
     initializeProject,
 } from "./activationHelpers/contextUnaware/projectInitializers";
-import { createIndexWithContext } from "./activationHelpers/contextAware/miniIndex/indexes/index";
 import { initializeWebviews } from "./activationHelpers/contextAware/webviewInitializers";
 import { syncUtils } from "./activationHelpers/contextAware/syncUtils";
 import { initializeStateStore } from "./stateStore";

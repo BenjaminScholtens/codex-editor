@@ -6,11 +6,12 @@ import { registerParallelViewWebviewProvider } from "../../providers/parallelPas
 import { registerSemanticViewProvider } from "../../providers/semanticView/customSemanticViewProvider";
 import { registerDictionaryTableProvider } from "../../providers/dictionaryTable/dictionaryTableProvider";
 import { registerDictionarySummaryProvider } from "../../providers/dictionaryTable/dictionarySummaryProvider";
+import { registerDictionaryEditorProvider } from "../../providers/dictionaryEditor/EditableDataGridPanel";
 
-
-export async function initializeWebviews(context: vscode.ExtensionContext){
+export async function initializeWebviews(context: vscode.ExtensionContext) {
     registerParallelViewWebviewProvider(context);
     registerSemanticViewProvider(context);
     registerDictionaryTableProvider(context);
     registerDictionarySummaryProvider(context);
+    registerDictionaryEditorProvider(context);
 }

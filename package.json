@@ -166,6 +166,10 @@
         ],
         "commands": [
             {
+                "command": "editable-data-grid.showEditableDataGrid",
+                "title": "Editable Data Grid: Show"
+            },
+            {
                 "command": "codex-editor-extension.JOSH_COMMAND",
                 "title": "JOSH_COMMAND"
             },
